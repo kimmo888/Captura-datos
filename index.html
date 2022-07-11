@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario para arrays</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios para capturar datos y guardarlos en un array</h1>
+        <p>Este formulario es para poder capturar los datos suministrados por el usuario y poder verlos en una tabla</p>
+    </header>
+    <main>
+        <section>
+            <form action="nombre"></form>
+            <input type="text" placeholder="ingrese su nombre" id="nombre">
+            <form action="edad"></form>
+            <input type="number" placeholder="ingrese su edad" id="edad">
+            <button id="boton" type="reset" onclick="tomaDeDatos();">Agregar</button>
+        </section>
+        <section>
+            <div class="container">
+                <table class="table" id="table">
+                    <thead class="thead-inverse">
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Edad</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="./js/arreglos-formularios.js"></script>
+</body>
+</html>
